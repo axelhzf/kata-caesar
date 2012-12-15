@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC3F040B32E8972158F6E2B /* CaesarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC3FC95705CCCCD8340016F /* CaesarTest.m */; };
+		DDC3F2F2E33BFF412A12EF37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3F6DB08423D77F43F6E23 /* Default@2x.png */; };
+		DDC3F3903ED092501F92A715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FF0167A2248C08AB6C90 /* Foundation.framework */; };
+		DDC3F43B4686FC4D493C1A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC3FCD98F9074C0E7D19817 /* main.m */; };
+		DDC3F4A6F2FEC7F31D5151D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC3F3923246ADA0EDB512E5 /* InfoPlist.strings */; };
+		DDC3F6B17D55AAB33FAF301F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3F484472EAF7995BE02CC /* Default.png */; };
+		DDC3F76E0BF4E42ECCE6F901 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FDFC948BF78C00A69085 /* SenTestingKit.framework */; };
+		DDC3F7C4746ECFE07DE07499 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FD4C98CCA8E3EDE24A35 /* UIKit.framework */; };
+		DDC3F7E1FEDBCA01ACEC7BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FF0167A2248C08AB6C90 /* Foundation.framework */; };
+		DDC3F8B7592A1FEC1A331349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FD4C98CCA8E3EDE24A35 /* UIKit.framework */; };
+		DDC3FB89A1891B554E2F6224 /* Caesar.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F042241F5417362ABB13 /* Caesar.m */; };
+		DDC3FE701EE75695BBF78CEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC3FCF022CFA69710119CB0 /* CoreGraphics.framework */; };
+		DDC3FEB047CD809E2F33013A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC3F4E18457D0B80CF0E5F0 /* InfoPlist.strings */; };
+		DDC3FF544204E1EB4B8DA74A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC3F6C57957ACAC8AF9E060 /* Default-568h@2x.png */; };
+		DDC3FFAF56A6540F83B5B8C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC3F866561D8A68F84283BF /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC3FF12BD14D20FE2B1E0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC3FE80B54AB17105A1E181 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC3FC00B2CEBFEB23337164;
+			remoteInfo = caesar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC3F01D3AE7B7DEC89A3BEE /* caesarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "caesarTests-Info.plist"; sourceTree = "<group>"; };
+		DDC3F042241F5417362ABB13 /* Caesar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caesar.m; sourceTree = "<group>"; };
+		DDC3F409F9EC879DC6978F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC3F484472EAF7995BE02CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDC3F54FCEC852446083A5E7 /* caesarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caesarTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC3F647CAD55CE1BFC618CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC3F6C57957ACAC8AF9E060 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDC3F6DB08423D77F43F6E23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DDC3F7E2EEBB2958D4E9101A /* caesar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caesar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC3F866561D8A68F84283BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC3F926E93943C049B8880B /* Caesar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caesar.h; sourceTree = "<group>"; };
+		DDC3FA40D2D243CF98C85020 /* CaesarTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaesarTest.h; sourceTree = "<group>"; };
+		DDC3FC95705CCCCD8340016F /* CaesarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaesarTest.m; sourceTree = "<group>"; };
+		DDC3FCD98F9074C0E7D19817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC3FCF022CFA69710119CB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDC3FD4C98CCA8E3EDE24A35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDC3FDFC948BF78C00A69085 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDC3FE3DC0F86F5CD7D189E7 /* caesar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "caesar-Info.plist"; sourceTree = "<group>"; };
+		DDC3FEDB437798ECC74A747D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		DDC3FEF672FF504ED0A61378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC3FF0167A2248C08AB6C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDC3FF53F428228A9A033F4D /* caesar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "caesar-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC3F38E8179D2907746D5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3F8B7592A1FEC1A331349 /* UIKit.framework in Frameworks */,
+				DDC3F3903ED092501F92A715 /* Foundation.framework in Frameworks */,
+				DDC3FE701EE75695BBF78CEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3F9D997E72616D8D1CFA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3F76E0BF4E42ECCE6F901 /* SenTestingKit.framework in Frameworks */,
+				DDC3F7C4746ECFE07DE07499 /* UIKit.framework in Frameworks */,
+				DDC3F7E1FEDBCA01ACEC7BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC3F41C8E5D0D410EA65CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3F01D3AE7B7DEC89A3BEE /* caesarTests-Info.plist */,
+				DDC3F4E18457D0B80CF0E5F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC3F6BC932C44F7CA6ED733 /* caesar */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3FA9C648D4BD616A163C2 /* Supporting Files */,
+				DDC3FEF672FF504ED0A61378 /* AppDelegate.h */,
+				DDC3F866561D8A68F84283BF /* AppDelegate.m */,
+				DDC3F042241F5417362ABB13 /* Caesar.m */,
+				DDC3F926E93943C049B8880B /* Caesar.h */,
+			);
+			path = caesar;
+			sourceTree = "<group>";
+		};
+		DDC3F72294091F827FA7A8C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3FD4C98CCA8E3EDE24A35 /* UIKit.framework */,
+				DDC3FF0167A2248C08AB6C90 /* Foundation.framework */,
+				DDC3FCF022CFA69710119CB0 /* CoreGraphics.framework */,
+				DDC3FDFC948BF78C00A69085 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC3FA1477C70D7755A1C4EE = {
+			isa = PBXGroup;
+			children = (
+				DDC3FA1650D0B0FB2DBD2A95 /* Products */,
+				DDC3F72294091F827FA7A8C3 /* Frameworks */,
+				DDC3F6BC932C44F7CA6ED733 /* caesar */,
+				DDC3FF2B11C81189028F10CA /* caesarTests */,
+				DDC3FEDB437798ECC74A747D /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC3FA1650D0B0FB2DBD2A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3F7E2EEBB2958D4E9101A /* caesar.app */,
+				DDC3F54FCEC852446083A5E7 /* caesarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC3FA9C648D4BD616A163C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3FE3DC0F86F5CD7D189E7 /* caesar-Info.plist */,
+				DDC3F3923246ADA0EDB512E5 /* InfoPlist.strings */,
+				DDC3FCD98F9074C0E7D19817 /* main.m */,
+				DDC3FF53F428228A9A033F4D /* caesar-Prefix.pch */,
+				DDC3F484472EAF7995BE02CC /* Default.png */,
+				DDC3F6DB08423D77F43F6E23 /* Default@2x.png */,
+				DDC3F6C57957ACAC8AF9E060 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC3FF2B11C81189028F10CA /* caesarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC3F41C8E5D0D410EA65CCB /* Supporting Files */,
+				DDC3FC95705CCCCD8340016F /* CaesarTest.m */,
+				DDC3FA40D2D243CF98C85020 /* CaesarTest.h */,
+			);
+			path = caesarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC3F9BD1A1E3FC43E0ECC51 /* caesarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC3FE2C773DC72C55004077 /* Build configuration list for PBXNativeTarget "caesarTests" */;
+			buildPhases = (
+				DDC3F4CC046A7178BEB6B5BD /* Sources */,
+				DDC3F9D997E72616D8D1CFA7 /* Frameworks */,
+				DDC3FFD50A100B9497A2525D /* Resources */,
+				DDC3F626DD135A9629CD4F59 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC3F806BBC8F62BE77A513F /* PBXTargetDependency */,
+			);
+			name = caesarTests;
+			productName = caesarTests;
+			productReference = DDC3F54FCEC852446083A5E7 /* caesarTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DDC3FC00B2CEBFEB23337164 /* caesar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC3F3D32CDBA8A11D0289B5 /* Build configuration list for PBXNativeTarget "caesar" */;
+			buildPhases = (
+				DDC3F53FB9617ED91F790FDA /* Sources */,
+				DDC3F38E8179D2907746D5DB /* Frameworks */,
+				DDC3FD2A2233B0B33EB36A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = caesar;
+			productName = caesar;
+			productReference = DDC3F7E2EEBB2958D4E9101A /* caesar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC3FE80B54AB17105A1E181 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DDC3F366C7A933222C53A958 /* Build configuration list for PBXProject "caesar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDC3FA1477C70D7755A1C4EE;
+			productRefGroup = DDC3FA1650D0B0FB2DBD2A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC3FC00B2CEBFEB23337164 /* caesar */,
+				DDC3F9BD1A1E3FC43E0ECC51 /* caesarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC3FD2A2233B0B33EB36A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3F4A6F2FEC7F31D5151D5 /* InfoPlist.strings in Resources */,
+				DDC3F6B17D55AAB33FAF301F /* Default.png in Resources */,
+				DDC3F2F2E33BFF412A12EF37 /* Default@2x.png in Resources */,
+				DDC3FF544204E1EB4B8DA74A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3FFD50A100B9497A2525D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3FEB047CD809E2F33013A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDC3F626DD135A9629CD4F59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC3F4CC046A7178BEB6B5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3F040B32E8972158F6E2B /* CaesarTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC3F53FB9617ED91F790FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC3F43B4686FC4D493C1A86 /* main.m in Sources */,
+				DDC3FFAF56A6540F83B5B8C6 /* AppDelegate.m in Sources */,
+				DDC3FB89A1891B554E2F6224 /* Caesar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC3F806BBC8F62BE77A513F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC3FC00B2CEBFEB23337164 /* caesar */;
+			targetProxy = DDC3FF12BD14D20FE2B1E0D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC3F3923246ADA0EDB512E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC3F647CAD55CE1BFC618CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDC3F4E18457D0B80CF0E5F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC3F409F9EC879DC6978F57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC3F007672F0AB9CD97D702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/caesar.app/caesar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "caesar/caesar-Prefix.pch";
+				INFOPLIST_FILE = "caesarTests/caesarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DDC3F1D3E5ECC914F10CEED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "caesar/caesar-Prefix.pch";
+				INFOPLIST_FILE = "caesar/caesar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDC3F35A7586D821B05A3357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC3F379AD4264B8230FDE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "caesar/caesar-Prefix.pch";
+				INFOPLIST_FILE = "caesar/caesar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDC3F534A10E1D123E69544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDC3F76C68CD1CE78BB45F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/caesar.app/caesar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "caesar/caesar-Prefix.pch";
+				INFOPLIST_FILE = "caesarTests/caesarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC3F366C7A933222C53A958 /* Build configuration list for PBXProject "caesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC3F35A7586D821B05A3357 /* Release */,
+				DDC3F534A10E1D123E69544F /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC3F3D32CDBA8A11D0289B5 /* Build configuration list for PBXNativeTarget "caesar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC3F379AD4264B8230FDE17 /* Release */,
+				DDC3F1D3E5ECC914F10CEED7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDC3FE2C773DC72C55004077 /* Build configuration list for PBXNativeTarget "caesarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC3F76C68CD1CE78BB45F5C /* Release */,
+				DDC3F007672F0AB9CD97D702 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC3FE80B54AB17105A1E181 /* Project object */;
+}
